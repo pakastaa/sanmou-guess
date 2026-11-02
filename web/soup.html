@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>海龟汤 · 三谋猜一猜</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="page">
+    <nav class="modes" aria-label="模式">
+      <a href="/">经典</a>
+      <a href="/daily.html">每日挑战</a>
+      <a href="/soup.html" aria-current="page">海龟汤</a>
+      <a href="/tactic.html">猜战法</a>
+    </nav>
+    <header class="top">
+      <p class="eyebrow">二十四次 · 问一项或点一个名字</p>
+      <h1>海龟汤</h1>
+      <p class="lede">每次只问一个栏目，或者直接点名。提问和点名共用 24 次，点中名字才算赢。点名只告诉你是或不是。</p>
+    </header>
+
+    <section class="rules">
+      <h2>怎么看反馈</h2>
+      <ul>
+        <li><span class="swatch correct"></span>这一项一致</li>
+        <li><span class="swatch close"></span>接近：缘分差 1，或赛季档相邻</li>
+        <li><span class="swatch wrong"></span>不一致。箭头表示答案更高或更低</li>
+      </ul>
+    </section>
+
+    <p id="status" class="status"></p>
+    <section id="fields" class="field-grid"></section>
+    <ol id="log" class="soup-log"></ol>
+
+    <form id="guessForm" class="guess-form" autocomplete="off">
+      <label class="search">
+        <span>点名武将</span>
+        <input id="guessInput" name="hero" placeholder="输入名字或自带战法">
+      </label>
+      <div id="suggestions" class="suggestions" hidden></div>
+      <div class="actions">
+        <button type="submit" id="submitGuess">点名</button>
+        <button type="button" id="giveUp">查看答案</button>
+        <button type="button" id="restart">再来一局</button>
+      </div>
+    </form>
+
+    <section id="answerWrap" class="board-wrap" hidden>
+      <h2>答案</h2>
+      <div class="board-head" id="boardHead"></div>
+      <div id="board" class="board"></div>
+    </section>
+  </main>
+  <script src="/game.js"></script>
+  <script src="/soup.js"></script>
+</body>
+</html>

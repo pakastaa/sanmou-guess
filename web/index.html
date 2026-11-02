@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>三谋猜一猜</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="page">
+    <nav class="modes" aria-label="模式">
+      <a href="/" aria-current="page">经典</a>
+      <a href="/daily.html">每日挑战</a>
+      <a href="/soup.html">海龟汤</a>
+      <a href="/tactic.html">猜战法</a>
+    </nav>
+    <header class="top">
+      <p class="eyebrow">橙将 · 八次机会</p>
+      <h1>三谋猜一猜</h1>
+      <p class="lede">根据阵营、兵种、战法、满级主属性、缘分、赛季、性别和类型，猜出隐藏的橙将。</p>
+    </header>
+
+    <section class="rules">
+      <h2>怎么看反馈</h2>
+      <ul>
+        <li><span class="swatch correct"></span>完全一致</li>
+        <li><span class="swatch close"></span>接近：缘分数量差 1，或赛季档相邻</li>
+        <li><span class="swatch wrong"></span>不一致。数字和赛季旁的箭头表示答案更高或更低</li>
+      </ul>
+      <p>登场赛季只分 s1、s2、s3、s4+。最高属性按 50 级计算：初始值 + 成长 × 49，取武力、智力、统帅、先攻中更高的一项。防御和治疗记为辅助。</p>
+    </section>
+
+    <section class="board-wrap">
+      <div class="board-head" id="boardHead"></div>
+      <div id="board" class="board"></div>
+      <p id="status" class="status"></p>
+    </section>
+
+    <form id="guessForm" class="guess-form" autocomplete="off">
+      <label class="search">
+        <span>猜测武将</span>
+        <input id="guessInput" name="hero" placeholder="输入名字或自带战法" required>
+      </label>
+      <div id="suggestions" class="suggestions" hidden></div>
+      <div class="actions">
+        <button type="submit" id="submitGuess">确认</button>
+        <button type="button" id="giveUp">查看答案</button>
+        <button type="button" id="restart">再来一局</button>
+      </div>
+    </form>
+  </main>
+  <script src="/game.js"></script>
+  <script src="/main.js"></script>
+</body>
+</html>

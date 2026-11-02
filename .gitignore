@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+data/runtime/
+data/_catalog_out.json
+*.tmp

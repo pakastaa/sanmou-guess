@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>每日挑战 · 三谋猜一猜</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="page">
+    <nav class="modes" aria-label="模式">
+      <a href="/">经典</a>
+      <a href="/daily.html" aria-current="page">每日挑战</a>
+      <a href="/soup.html">海龟汤</a>
+      <a href="/tactic.html">猜战法</a>
+    </nav>
+    <header class="top">
+      <p class="eyebrow">上海时间 · 一天三档</p>
+      <h1>每日挑战</h1>
+      <p class="lede">入门只从 S1 橙将里抽，标准抽到 S3，全部包含之后的赛季。同一天三档答案不同，用最少的猜测通关。</p>
+    </header>
+
+    <section id="lobby">
+      <div class="name-row">
+        <label class="search" for="displayName">榜上的名字</label>
+        <input id="displayName" maxlength="12" placeholder="访客">
+      </div>
+      <p id="dateText" class="status"></p>
+      <div id="tiers" class="tier-grid"></div>
+    </section>
+
+    <section id="play" hidden>
+      <section class="board-wrap">
+        <div class="board-head" id="boardHead"></div>
+        <div id="board" class="board"></div>
+        <p id="status" class="status"></p>
+      </section>
+      <form id="guessForm" class="guess-form" autocomplete="off">
+        <label class="search">
+          <span>猜测武将</span>
+          <input id="guessInput" name="hero" placeholder="输入名字或自带战法">
+        </label>
+        <div id="suggestions" class="suggestions" hidden></div>
+        <div class="actions">
+          <button type="submit" id="submitGuess">确认</button>
+          <button type="button" id="giveUp">查看答案</button>
+          <button type="button" id="back">返回今日</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <script src="/game.js"></script>
+  <script src="/daily.js"></script>
+</body>
+</html>

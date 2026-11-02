@@ -1,0 +1,3153 @@
+{
+  "meta": {
+    "source_site": "https://www.sgmdtx.com",
+    "source_page": "https://www.sgmdtx.com/zhanfa/",
+    "scraped_at_utc": "2026-11-02T01:45:09.779418+00:00",
+    "count_ok": 133,
+    "discover_source": "wujiang page chunks getZfs；自带战法已留在武将 innate_skill",
+    "figure_dir": "data/figure",
+    "figure_failed": []
+  },
+  "tactics": [
+    {
+      "source_url": "https://www.sgmdtx.com/zf/一计决胜/",
+      "name": "一计决胜",
+      "description": "准备1回合，对敌军随机两人造成110%谋略伤害，并施加虛弱状态,持续2回合，若目标已持有虛弱状态，则额外造成25%谋略伤害",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "35%",
+      "ranked_description": "准备1回合，对敌军随机两人造成110%-220%谋略伤害，并施加虛弱状态,持续2回合，若目标已持有虚弱状态，则额外造成25%-50%谋略伤害",
+      "ranked_rate_text": "35%",
+      "avatar_file": "data/figure/yi_ji_jue_sheng.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        ""
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/万军辟易/",
+      "name": "万军辟易",
+      "description": "普通攻击后，对敌军全体造成70%→77.7%兵刃伤害，偶数回合发动时额外对敌军兵力最低单体造成50%55.5%兵刃伤害，若上个回合没有发动，该次战法伤害提升50%",
+      "tactic_type": "追击",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "35%",
+      "ranked_description": "普通攻击后，对敌军全体造成70%→140%兵刃伤害，偶数回合发动时额外对敌军兵力最低单体造成50%100%兵刃伤害，若上个回合没有发动，该次战法伤害提升50%",
+      "ranked_rate_text": "35%",
+      "avatar_file": "data/figure/wan_jun_bi_yi.png",
+      "season": "s8",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2",
+        "追击",
+        "兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/万夫莫当/",
+      "name": "万夫莫当",
+      "description": "普通攻击后，有60%概率对攻击目标的两名队友造成该次普通攻击50％的传递伤害，若自身武力高于目标，则额外造成15%兵刃伤害",
+      "tactic_type": "被动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "普通攻击后，有60%概率对攻击目标的两名队友造成该次普通攻击50%-100%的传递伤害，若自身武力高于目标，则额外造成15%-30%兵刃伤害",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/wan_fu_mo_dang.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/三军夺气/",
+      "name": "三军夺气",
+      "description": "普通攻击后，使攻击目标武力、智力、统率降低15点，持续2回合，最多可叠加5次",
+      "tactic_type": "追击",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "55%",
+      "ranked_description": "普通攻击后，使攻击目标武力、智力、统率降低15-30点，持续2回合，最多可叠加5次",
+      "ranked_rate_text": "55%",
+      "avatar_file": "data/figure/san_jun_qi_qi.png",
+      "season": "s2",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2",
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/上兵伐谋/",
+      "name": "上兵伐谋",
+      "description": "回合开始时，对敌军随机单体造成60%谋略伤害，上兵伐谋伤害会随着回合数增加，每回合提升伤害10%",
+      "tactic_type": "指挥",
+      "effect_tag": "谋略",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "回合开始时，对敌军随机单体造成60%-120%谋略伤害 ，上兵伐谋伤害会随着回合数增加，每回合提升伤害10%",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/shang_bing_fa_mou.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        ""
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/上智为间/",
+      "name": "上智为间",
+      "description": "使敌军随机单体混乱，持续1回合，并造成150%谋略伤害",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "45%",
+      "ranked_description": "使敌军随机单体混乱，持续1回合，并造成150%一300%谋略伤害",
+      "ranked_rate_text": "45%",
+      "avatar_file": "data/figure/shang_zhi_wei_jian.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/临危勇烈/",
+      "name": "临危勇烈",
+      "description": "自身反击率提升20%，受到普通攻击伤害降低10%",
+      "tactic_type": "被动",
+      "effect_tag": "兵刃",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "自身反击率提升20%一40%，受到普通攻击伤害降低10%-20%",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/lin_wei_yong_lie.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        ""
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/临阵突袭/",
+      "name": "临阵突袭",
+      "description": "普通攻击后，降低目标15点统率，持续2回合，然后对其造成125%兵刃伤害",
+      "tactic_type": "追击",
+      "effect_tag": "兵刃",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "40%",
+      "ranked_description": "普通攻击后，降低目标15一30点统率，持续2回合，然后对其造成125%-250%兵刃伤害",
+      "ranked_rate_text": "40%",
+      "avatar_file": "data/figure/lin_zhen_tu_xi.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T3",
+        "兵刃",
+        "追击"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/久砺成锋/",
+      "name": "久砺成锋",
+      "description": "战斗前3回合，我军全体受到伤害后，有50%概率使我军全体获得1层砥砺：受到伤害降低2.5%->2.78%（受智力影响），可叠加10次，持续到回合结束。每回合结束时，我军全体每持有1层砥砺，连击率提升1%->1.11%（受智力影响），可叠加10次，持续到战斗结束",
+      "tactic_type": "指挥",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "战斗前3回合，我军全体受到伤害后，有50%概率使我军全体获得1层砥砺：受到伤害降低2.5%->5%（受智力影响），可叠加10次，持续到回合结束。每回合结束时，我军全体每持有1层砥砺，连击率提升1%->2%（受智力影响），可叠加10次，持续到战斗结束",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/jiu_li_cheng_feng.png",
+      "season": "s18",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/乐不思蜀/",
+      "name": "乐不思蜀",
+      "description": "使自身和随机友军单体规避率提升5%->5.56%(受统率影响)，持续1回合；并有15%->16.67%概率(受目标与自身兵力差影响)对敌军随机单体(优先选择后排目标)施加虚弱，持续1回合",
+      "tactic_type": "主动",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "60%",
+      "ranked_description": "使自身和随机友军单体规避率提升5%->10%(受统率影响)，持续1回合；并有15%->30%概率(受目标与自身兵力差影响)对敌军随机单体(优先选择后排目标)施加虚弱，持续1回合",
+      "ranked_rate_text": "60%",
+      "avatar_file": "data/figure/le_bu_si_shu.png",
+      "season": "s16",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/乘虚而入/",
+      "name": "乘虚而入",
+      "description": "普通攻击后，对敌军随机单体造成140%兵刃伤害，若目标持有虚弱状态,则该次伤害值提升30%，若未持有虛弱状态，则有65%概率施加虛弱，持续1回合",
+      "tactic_type": "追击",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "40%",
+      "ranked_description": "普通攻击后，对敌军随机单体造成140%-280%兵刃伤害，若目标持有虚弱状态，则该次伤害值提升30%，若未持有虚弱状态，则有65%概率施加虚弱，持续1回合",
+      "ranked_rate_text": "40%",
+      "avatar_file": "data/figure/cheng_xu_er_ru.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "追击",
+        "兵刃",
+        "控制"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/乘间投隙/",
+      "name": "乘间投隙",
+      "description": "普通攻击后，对敌军随机单体施加混乱，持续1回合，并造成60%谋略伤害,若目标已处于混乱状态，则对其友军随机单体造成50%谋略伤害",
+      "tactic_type": "追击",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "60%",
+      "ranked_description": "普通攻击后，对敌军随机单体施加混乱，持续1回合，并造成60%-120％谋略伤害，若目标已处于混乱状悉，则对其友军随机单体造成50%一100%谋略伤害",
+      "ranked_rate_text": "60%",
+      "avatar_file": "data/figure/cheng_jian_tou_xi.png",
+      "season": "s2",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T3",
+        "谋略",
+        "追击",
+        "控制"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/乱敌方阵/",
+      "name": "乱敌方阵",
+      "description": "普通攻击后，对攻击目标造成110%兵刃伤害。并施加混乱，持续1回合",
+      "tactic_type": "追击",
+      "effect_tag": "兵刃",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "35%",
+      "ranked_description": "普通攻击后，对攻击目标造成110%-220%兵刃伤害。并施加混乱，持续1回合",
+      "ranked_rate_text": "35%",
+      "avatar_file": "data/figure/luan_di_fang_zhen.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        ""
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/五雷轰顶/",
+      "name": "五雷轰顶",
+      "description": "准备1回合，对敌军随机单体造成80%谋略伤害，施放5次，每次命中持有洪水状态的目标时，额外对其造成20%谋略伤害",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "50%",
+      "ranked_description": "准备1回合 ，对敌军随机单体造成80%一160%谋略伤害，施放5次，每次命中持有洪水状态的目标时，额外对其造成20%一40%谋略伤害",
+      "ranked_rate_text": "50%",
+      "avatar_file": "data/figure/wu_lei_hong_ding.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/以战养战/",
+      "name": "以战养战",
+      "description": "武力提升10点，普通攻击后，恢复自身兵力(治疗率55%，受智力和武力影响）",
+      "tactic_type": "被动",
+      "effect_tag": "治疗",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "武力提升10-20点，普通攻击后，恢复自身兵力(治疗率55%一110%，受智力和武力影响）",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/yi_zhan_yang_zhan.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        ""
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/以静制动/",
+      "name": "以静制动",
+      "description": "奇数回合，自身无法进行普通攻击，受到兵刃伤害，普通攻击伤害，追击战法伤害减少15% 偶数回合，自身无法发动主动战法，受到谋略伤害，主动战法伤害减少15%",
+      "tactic_type": "被动",
+      "effect_tag": "防御",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "奇数回合，自身无法进行普通攻击，受到兵刃伤害，普通攻击伤害，追击战法伤害减少15%一30%偶数回合，自身无法发动主动战法，受到谋略伤害，主动战法伤害减少15%-30%",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/yi_jing_zhi_dong.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2防御"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/任人唯贤/",
+      "name": "任人唯贤",
+      "description": "提升我军随机两人7.5%造成伤害,12.5点统率，持续2回合",
+      "tactic_type": "主动",
+      "effect_tag": "辅助",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "60%",
+      "ranked_description": "提升我军随机两人7.5%-15%造成伤害，12.5-25点统率，持续2回合",
+      "ranked_rate_text": "60%",
+      "avatar_file": "data/figure/ren_ren_wei_xian.png",
+      "season": "s2",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2",
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/任人择势/",
+      "name": "任人择势",
+      "description": "第3回合起，两名队友每回合有40%概率使下一次伤害必定触发会心和奇谋，且该次会心和奇谋伤害提升20%",
+      "tactic_type": "指挥",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "第3回合起，两名队友每回合有40%-80%概率使下一次伤害必定触发会心和奇谋，且该次会心和奇谋伤害提升20%-40%",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/ren_ren_ze_shi.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/伏兵四起/",
+      "name": "伏兵四起",
+      "description": "对敌军随机单体造成50%至70%兵刃伤害，施放4次",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "50%",
+      "ranked_description": "对敌军随机单体造成50%一100%至70%-140%兵刃伤害，施放4次",
+      "ranked_rate_text": "50%",
+      "avatar_file": "data/figure/fu_bing_si_qi.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/保境安民/",
+      "name": "保境安民",
+      "description": "战斗开始前2回合，自身与友军统率最低单体受到伤害时有50%概率降低10%->11.11%（受智力影响），且第3回合起，受到伤害时恢复兵力（治疗率40%->44.44%，受智力影响），治疗效果每回合最多触发4次，持续2回合",
+      "tactic_type": "指挥",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "战斗开始前2回合，自身与友军统率最低单体受到伤害时有50%概率降低10%->20%（受智力影响），且第3回合起，受到伤害时恢复兵力（治疗率40%->80%，受智力影响），治疗效果每回合最多触发4次，持续2回合",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/bao_jing_an_min.png",
+      "season": "s17",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/克敌如风/",
+      "name": "克敌如风",
+      "description": "对敌军随机单体造成120%兵刃伤害(优先选择后排），并施加风暴,持续2回合。若目标已处于风暴状态则额外降低其12.5点先攻，持续2回合",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "50%",
+      "ranked_description": "对敌军随机单体造成120%-240%兵刃伤害(优先选择后排），并施加风暴,持续2回合。若目标已处于风暴状态则额外降低其12.5-25点先攻，持续2回合",
+      "ranked_rate_text": "50%",
+      "avatar_file": "data/figure/ke_di_ru_feng.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        ""
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/兵贵神速/",
+      "name": "兵贵神速",
+      "description": "普通攻击后，提升自身15点先攻，持续2回合，并对敌军随机两人造成90%兵刃伤害(额外受先攻影响）",
+      "tactic_type": "追击",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "40%",
+      "ranked_description": "普通攻击后，提升自身15一30点先攻，持续2回合，并对敌军随机两人造成90%-180%兵刃伤害(额外受先攻影响）",
+      "ranked_rate_text": "40%",
+      "avatar_file": "data/figure/bing_gui_shen_su.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0",
+        "追击",
+        "兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/冲锐巧变/",
+      "name": "冲锐巧变",
+      "description": "对敌军随机单体造成180%-360%兵刃伤害，并使自身下一次释放的准备战法跳过一定回合准备。",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "22%",
+      "ranked_description": "对敌军随机单体造成180%-360%兵刃伤害，并使自身下一次释放的准备战法跳过一定回合准备。",
+      "ranked_rate_text": "40%",
+      "avatar_file": "data/figure/chong_rui_qiao_bian.png",
+      "season": "s3",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/决水破敌/",
+      "name": "决水破敌",
+      "description": "对敌军随机两人造成50%谋略伤害，若目标处于洪水状态。则额外造成30%谋略伤害，否则施加洪水，持续2回合",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "60%",
+      "ranked_description": "对敌军随机两人造成50%-100%谋略伤害，若目标处于洪水状态。则额外造成30%一60%谋略伤害，否则施加洪水，持续2回合",
+      "ranked_rate_text": "60%",
+      "avatar_file": "data/figure/jue_shui_po_di.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T3谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/出其不意/",
+      "name": "出其不意",
+      "description": "对敌军随机单体造成175%谋略伤害，若目标持有负面状态该次伤害值提升25%",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "55%",
+      "ranked_description": "对敌军随机单体造成175%一350%谋略伤害，若目标持有负面状态该次伤害值提升25%",
+      "ranked_rate_text": "55%",
+      "avatar_file": "data/figure/chu_qi_bu_yi.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/势如破竹/",
+      "name": "势如破竹",
+      "description": "提升自身20%会心几率，持续2回合，然后对敌军全体造成70%兵刃伤害",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "27.5%",
+      "ranked_description": "提升自身20%会心几率，持续2回合 ，然后对敌军全体造成70%一140％兵刃伤害",
+      "ranked_rate_text": "27.5%> 50%",
+      "avatar_file": "data/figure/shi_ru_po_zhu.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/勇冠三军/",
+      "name": "勇冠三军",
+      "description": "自身倒戈提升15%，普通攻击之后，使自身造成兵刃伤害提升3%，可叠加6次，累积进行3次普通攻击之后，对敌军随机单体造成100%兵刃伤害",
+      "tactic_type": "被动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "自身倒戈提升15%-30%，普通攻击之后，使自身造成兵刃伤害提升3％一6%，可叠加6次，累积进行3次普通攻击之后，对敌军随机单体造成100%-200%兵刃伤害",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/yong_guan_san_jun.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1兵刃",
+        "被动"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/十面埋伏/",
+      "name": "十面埋伏",
+      "description": "对敌军全体造成75%->83.3%兵刃伤害，并有75%概率施加断粮，持续1回合",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "45%",
+      "ranked_description": "对敌军全体造成75%->150%兵刃伤害，并有75%概率施加断粮，持续1回合",
+      "ranked_rate_text": "45%",
+      "avatar_file": "data/figure/shi_mian_mai_fu.png",
+      "season": "s5",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2",
+        "谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/千里突袭/",
+      "name": "千里突袭",
+      "description": "普通攻击后，对先攻最低的敌军单体造成140%（额外受双方先攻差值影响)兵刃伤害，若目标为后排额外造成50%兵刃伤害",
+      "tactic_type": "追击",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "40%",
+      "ranked_description": "普通攻击后，对先攻最低的敌军单体造成140%-280%(额外受双方先攻差值影响）兵刃伤害，若目标为后排额外造成50%-100%兵刃伤害",
+      "ranked_rate_text": "40%",
+      "avatar_file": "data/figure/qian_li_tu_xi.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T3",
+        "兵刃",
+        "追击"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/及锋而试/",
+      "name": "及锋而试",
+      "description": "提升自身10%→11.1%兵刃伤害，持续2回合，然后对敌军随机两人造成80%→88.8%兵刃伤害，目标存在属性降低状态，该次伤害系数额外提升30%",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "60%",
+      "ranked_description": "提升自身10%→20%兵刃伤害，持续2回合，然后对敌军随机两人造成80%→160%兵刃伤害，目标存在属性降低状态，该次伤害系数额外提升30%",
+      "ranked_rate_text": "60%",
+      "avatar_file": "data/figure/ji_feng_er_shi.png",
+      "season": "s11",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/同舟共济/",
+      "name": "同舟共济",
+      "description": "每个回合行动时恢复自身和随机一名队友兵力（治疗率45％->50％，受智力和统率影响）",
+      "tactic_type": "指挥",
+      "effect_tag": "治疗",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "每个回合行动时恢复自身和随机一名队友兵力（治疗率45％->90％，受智力和统率影响）",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/tong_zhou_gong_ji.png",
+      "season": "s3",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2治疗"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/咏歌尝酒/",
+      "name": "咏歌尝酒",
+      "description": "恢复我军随机两人兵力(治疗率65%，受智力影响），并提升其8点统率，持续2回合",
+      "tactic_type": "主动",
+      "effect_tag": "治疗",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "65%",
+      "ranked_description": "恢复我军随机两人兵力(治疗率65%-130%，受智力影响），并提升其8-16点统率，持续2回合",
+      "ranked_rate_text": "65%",
+      "avatar_file": "data/figure/yong_ge_chang_jiu.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2治疗"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/固若金汤/",
+      "name": "固若金汤",
+      "description": "自身统率提升7.5%，第2回合起，每个回合开始时有30%概率(受统率影响）嘲讽敌军随机两人，持续2回合",
+      "tactic_type": "指挥",
+      "effect_tag": "防御",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "自身统率提升7.5%-15%，第2回合起，每个回合开始时有30%-60%概率(受统率影响）嘲讽敌军随机两人，持续2回合",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/gu_ruo_jin_tang.png",
+      "season": "s2",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0",
+        "防御"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/坚壁清野/",
+      "name": "坚壁清野",
+      "description": "嘲讽敌军全体，并提升自身18点统率，持续2回合",
+      "tactic_type": "主动",
+      "effect_tag": "防御",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "50%",
+      "ranked_description": "嘲讽敌军全体，并提升自身18一36点统率，持续2回合",
+      "ranked_rate_text": "50%",
+      "avatar_file": "data/figure/jian_bi_qing_ye.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        ""
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/坚如磐石/",
+      "name": "坚如磐石",
+      "description": "嘲讽全体敌军，并使自身受到伤害降低15%，持续2回合",
+      "tactic_type": "主动",
+      "effect_tag": "防御",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "55%",
+      "ranked_description": "嘲讽全体敌军，并使自身受到伤害降低15%一30%，持续2回合",
+      "ranked_rate_text": "55%",
+      "avatar_file": "data/figure/jian_ru_pan_shi.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1防御"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/夜袭/",
+      "name": "夜袭",
+      "description": "普通攻击后，对敌军随机两人造成60%兵刃伤害，若自身先攻大于目标则额外造成25%兵刃伤害",
+      "tactic_type": "追击",
+      "effect_tag": "兵刃",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "45%",
+      "ranked_description": "普通攻击后，对敌军随机两人造成60%-120%兵刃伤害，若自身先攻大于目标则额外造成25%一50%兵刃伤害",
+      "ranked_rate_text": "45%",
+      "avatar_file": "data/figure/ye_gun.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        ""
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/奇正相生/",
+      "name": "奇正相生",
+      "description": "第2回合起，回合开始时，有65%概率恢复我军随机两人兵力(治疗率为75%，受智力影响），回合结束时，有65%概率对敌军随机两人造成75%谋略伤害",
+      "tactic_type": "指挥",
+      "effect_tag": "治疗",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "第2回合起，回合开始时，有65%概率恢复我军随机两人兵力(治疗率为75%-150%，受智力影响），回合结束时，有65%概率对敌军随机两人造成75%-150%谋略伤害",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/qi_zheng_xiang_sheng.png",
+      "season": "s2",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0",
+        "治疗",
+        "谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/奇计迭出/",
+      "name": "奇计迭出",
+      "description": "普通攻击后，对敌军随机单体造成125%谋略伤害，优先选择敌军后排",
+      "tactic_type": "追击",
+      "effect_tag": "谋略",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "40%",
+      "ranked_description": "普通攻击后，对敌军随机单体造成125%一250%谋略伤害，优先选择敌军后排",
+      "ranked_rate_text": "40%",
+      "avatar_file": "data/figure/qi_ji_die_chu.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        ""
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/奇门遁甲/",
+      "name": "奇门遁甲",
+      "description": "准备1回合，对敌军全体造成125%谋略伤害，并有12.5%概率施加震慑，持续1回合，目标每多一种异常状态，谋略伤害系数提升25%，震慑概率提升8%，可提升5次",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "40%",
+      "ranked_description": "准备1回合,对敌军全体造成125%一250%谋略伤害，并有12.5%-25％概率施加震慑，持续1回合，目标每多一种异常状态，谋略伤害系数提升25%，震慑概率提升8%，可提升5次",
+      "ranked_rate_text": "40%",
+      "avatar_file": "data/figure/qi_men_dun_jia.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/如有神助/",
+      "name": "如有神助",
+      "description": "主动战法发动率提升4%，主动战法伤害提升7.5%",
+      "tactic_type": "被动",
+      "effect_tag": "辅助",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "主动战法发动率提升4%一8%，主动战法伤害提升7.5%-15%",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/ru_you_shen_zhu.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/如沐春风/",
+      "name": "如沐春风",
+      "description": "每个回合行动时恢复自身兵力(治疗率70%，受智力和统率影响）",
+      "tactic_type": "被动",
+      "effect_tag": "治疗",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "每个回合行动时恢复自身兵力(治疗率70%-140%，受智力和统率影响）",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/ru_mu_chun_feng.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T3治疗"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/威名显赫/",
+      "name": "威名显赫",
+      "description": "提升自身30%倒戈，持续2回合。然后对敌军随机两人造成110%兵刃伤害",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "27.5%",
+      "ranked_description": "提升自身30%倒戈，持续2回合。然后对敌军随机两人造成110%-220%兵刃伤害",
+      "ranked_rate_text": "27.5%>> 50%",
+      "avatar_file": "data/figure/wei_ming_xian_he.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0兵刃",
+        "恢复"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/屈人之兵/",
+      "name": "屈人之兵",
+      "description": "对敌军随机两人施加缴械，持续1回合，若目标已持有缴械，则使其造成伤害降低7.5%，持续2回合",
+      "tactic_type": "主动",
+      "effect_tag": "防御",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "22%",
+      "ranked_description": "对敌军随机两人施加缴械，持续1回合 ，若目标已持有缴械，则使其造成伤害降低7.5%一15%，持续2回合",
+      "ranked_rate_text": "22% »40%",
+      "avatar_file": "data/figure/qu_ren_zhi_bing.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        ""
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/岿然不动/",
+      "name": "岿然不动",
+      "description": "我军全体每消耗2次抵御，我军全体获得1层据守：统率提升12->13.33点，可叠加3次，持续到回合结束。回合结束时，恢复我军兵力最低单体兵力（治疗率30%->33.33%，受智力和统率影响），每持有1层据守，治疗率提升20%->20%",
+      "tactic_type": "指挥",
+      "effect_tag": "防御",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "我军全体每消耗2次抵御，我军全体获得1层据守：统率提升12->24点，可叠加3次，持续到回合结束。回合结束时，恢复我军兵力最低单体兵力（治疗率30%->60%，受智力和统率影响），每持有1层据守，治疗率提升20%->20%",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/gui_ran_bu_dong.png",
+      "season": "s14",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "防御"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/巧利天灾/",
+      "name": "巧利天灾",
+      "description": "对除自身外的敌我全体目标造成70%谋略伤害 若为敌军目标且处于火攻状态，则有35%概率施加混乱，持续1回合若 为敌军目标且处于洪水状态，则有35%概率施加缴械，持续1回合 若为敌军目标且处于风暴状态，则有35%概率施加技穷，持续1回合",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "50%",
+      "ranked_description": "对除自身外的敌我全体目标造成70%一140%谋略伤害若为敌军目标且处于火攻状态，则有35%概率施加混乱，持续1回合若为敌军目标且处于洪水状态，则有35%概率施加缴械，持续1回合若为敌军目标且处于风暴状态，则有35%概率施加技穷，持续1回合",
+      "ranked_rate_text": "50%",
+      "avatar_file": "data/figure/qiao_li_tian_zai.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T3谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/强袭/",
+      "name": "强袭",
+      "description": "普通攻击后，对敌军随机单体造成该次普通攻击40%的传递伤害",
+      "tactic_type": "被动",
+      "effect_tag": "兵刃",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "普通攻击后，对敌军随机单体造成该次普通攻击40%一80%的传递伤害",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/qiang_xi.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        ""
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/御敌临前/",
+      "name": "御敌临前",
+      "description": "使自身和一名随机队友受到伤害降低10%→11.1%(受先攻影响),持续1回合，若自身为前排，额外恢复自身兵力(治疗率60%→66.6%，受智力和先攻影响",
+      "tactic_type": "主动",
+      "effect_tag": "防御",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "75%",
+      "ranked_description": "使自身和一名随机队友受到伤害降低10%→20%(受先攻影响)，持续1回合，若自身为前排，额外恢复自身兵力(治疗率60%→120%，受智力和先攻影响",
+      "ranked_rate_text": "75%",
+      "avatar_file": "data/figure/yu_di_lin_qian.png",
+      "season": "s9",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0",
+        "防御"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/忘私相助/",
+      "name": "忘私相助",
+      "description": "自身受到伤害前，有50%概率恢复两名队友兵力(治疗率25%，受智力和统率影响）",
+      "tactic_type": "被动",
+      "effect_tag": "治疗",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "自身受到伤害前，有50%概率恢复两名队友兵力(治疗率25%-50%，受智力和统率影响）",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/wang_si_xiang_zhu.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2治疗"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/恩威并行/",
+      "name": "恩威并行",
+      "description": "战斗开始前3回合，自带战法造成治疗后（攻心和倒戈无效），令目标受到伤害降低1.5%->1.67%（受智力和统率影响），可叠加6次，持续到战斗结束；第4回合起，每回合行动时，对敌军随机两人造成25%->27.78%谋略伤害（额外受全队累积治疗量影响）",
+      "tactic_type": "指挥",
+      "effect_tag": "防御",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "战斗开始前3回合，自带战法造成治疗后（攻心和倒戈无效），令目标受到伤害降低1.5%->3%（受智力和统率影响），可叠加6次，持续到战斗结束；第4回合起，每回合行动时，对敌军随机两人造成25%->50%谋略伤害（额外受全队累积治疗量影响）",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/en_wei_bing_xing.png",
+      "season": "s13",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1防御"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/惩前毖后/",
+      "name": "惩前毖后",
+      "description": "每个回合开始时，对敌军随机两人造成45%→50%谋略伤害(额外受全队累积治疗量影响)。每个回合结束时，恢复我军前排兵力(治疗率25%→27.7%，受智力影响)",
+      "tactic_type": "指挥",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "每个回合开始时,对敌军随机两人造成45%→90%谋略伤害(额外受全队累积治疗量影响)。每个回合结束时，恢复我军前排兵力(治疗率25%→50%，受智力影响",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/cheng_qian_bi_hou.png",
+      "season": "s8",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0",
+        "谋略",
+        "治疗"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/战八方/",
+      "name": "战八方",
+      "description": "对敌军全体造成65%兵刃伤害，并施加畏惧，持续2回合",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "55%",
+      "ranked_description": "对敌军全体造成65%一130%兵刃伤害，并施加畏惧，持续2回合",
+      "ranked_rate_text": "55%",
+      "avatar_file": "data/figure/zhan_ba_fang.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1兵刃",
+        "增伤"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/折冲御侮/",
+      "name": "折冲御侮",
+      "description": "战斗开始前3回合，我军随机两人受到伤害降低12%->13.3%（受智力影响），并在第4回合开始时为我军全体恢复兵力（治疗率180%->200%，受智力影响）",
+      "tactic_type": "指挥",
+      "effect_tag": "防御",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "战斗开始前3回合，我军随机两人受到伤害降低12%->24%（受智力影响），并在第4回合开始时为我军全体恢复兵力（治疗率180%->360%，受智力影响）",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/zhe_chong_yu_hui.png",
+      "season": "s4",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0防御",
+        "治疗"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/披坚执锐/",
+      "name": "披坚执锐",
+      "description": "战斗开始时，使我军随机单体(优先前排)获得披坚：行动前恢复自身兵力(治疗率40%，受目标智力统率影响)，受到兵刃伤害降低10%使我军武力最高单体获得执锐：普通攻击后，有50%概率对敌军随机单体造成1次50%兵刃伤害",
+      "tactic_type": "指挥",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "战斗开始时，使我军随机单体(优先前排)获得披坚：行动前恢复自身兵力(治疗率40%-80%，受目标智力统率影响），受到兵刃伤害降低10%-20%使我军武力最高单体获得执锐：普通攻击后，有50％概率对敌军随机单体造成1次50%一100%兵刃伤害",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/pi_jian_zhi_rui.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/拔刀相向/",
+      "name": "拔刀相向",
+      "description": "战斗中，自身尝试发动主动战法时，最高属性提升5->5.56点，造成伤害提升3.5%->3.89%(受最高属性影响)，可叠加5次，持续到战斗结束",
+      "tactic_type": "被动",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "战斗中，自身尝试发动主动战法时，最高属性提升5->10点造成伤害提升3.5%->7%(受最高属性影响)，可叠加5次持续到战斗结束",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/ba_dao_xiang_xiang.png",
+      "season": "s15",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/指点乾坤/",
+      "name": "指点乾坤",
+      "description": "令我军武力最高单体对敌军全体造成40%兵刃伤害，令我军智力最高单体对敌军全体造成40%谋略伤害",
+      "tactic_type": "主动",
+      "effect_tag": "文武",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "50%",
+      "ranked_description": "令我军武力最高单体对敌军全体造成40%一80%兵刃伤害，令我军智力最高单体对敌军全体造成40%-80%谋略伤害",
+      "ranked_rate_text": "50%",
+      "avatar_file": "data/figure/zhi_dian_qian_kun.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0文武"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/挫锐折锋/",
+      "name": "挫锐折锋",
+      "description": "战斗开始前3回合，敌军武力最高单体造成兵刃伤害降低12.5%-13.8%（受统率影响），敌军智力最高单体造成谋略伤害降低12.5% 13.8%（受统率影响）",
+      "tactic_type": "指挥",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "战斗开始前3回合，敌军武力最高单体造成兵刃伤害降低12.5%一25%（受统率影响），敌军智力最高单体造成谋略伤害降低12.5% 25%（受统率影响）",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/cuo_rui_zhe_feng.png",
+      "season": "s5",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0",
+        "防御"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/掠阵破军/",
+      "name": "掠阵破军",
+      "description": "提升自身7.5%→8.3%破甲(受规避率影响),每回合结束时，对敌军全体造成25%→27.7%的伤害(伤害类型由武力和智力最高决定，本回合内自身每成功规避一次，额外提升10%系数，最高可提升50%)",
+      "tactic_type": "被动",
+      "effect_tag": "文武",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "提升自身7.5%→15%破甲(受规避率影响),每回合结束时，对敌军全体造成25%→50%的伤害(伤害类型由武力和智力最高决定，本回合内自身每成功规避一次，额外提升10%系数，最高可提升50%",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/lve_zhen_po_jun.png",
+      "season": "s11",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/揭竿而起/",
+      "name": "揭竿而起",
+      "description": "对敌军随机两人造成75%兵刃伤害，并对目标施加断粮，持续1回合",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "45%",
+      "ranked_description": "对敌军随机两人造成75%一150%兵刃伤害，并对目标施加断粮，持续1回合",
+      "ranked_rate_text": "45%",
+      "avatar_file": "data/figure/jie_gan_er_qi.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        ""
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/摧坚克难/",
+      "name": "摧坚克难",
+      "description": "提升自身20%会心几率，每个回合行动结束时对敌军随机两人造成55％兵刃伤害",
+      "tactic_type": "被动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "提升自身20%会心几率，每个回合行动结束时对敌军随机两人造成55%-110%兵刃伤害",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/cui_jian_ke_nan.png",
+      "season": "s2",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/攻其不备/",
+      "name": "攻其不备",
+      "description": "普通攻击后，对攻击目标造成140%兵刃伤害，并施加技穷，持续1回合。若目标已处于技穷状态则有50%概率施加震慑，持续1回合",
+      "tactic_type": "追击",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "40%",
+      "ranked_description": "普通攻击后，对攻击目标造成140%一280%兵刃伤害，并施加技穷，持续1回合。若目标已处于技穷状态则有50%概率施加震慑，持续1回合",
+      "ranked_rate_text": "40%",
+      "avatar_file": "data/figure/gong_qi_bu_bei.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "兵刃",
+        "追击",
+        "控制"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/文武双全/",
+      "name": "文武双全",
+      "description": "对敌军武力最高单体造成110%谋略伤害，对敌军智力最高单体造成110%兵刃伤害",
+      "tactic_type": "主动",
+      "effect_tag": "文武",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "65%",
+      "ranked_description": "对敌军武力最高单体造成110%-220%谋略伤害，对敌军智力最高单体造成110%一›220%兵刃伤害",
+      "ranked_rate_text": "65%",
+      "avatar_file": "data/figure/wen_wu_shuang_quan.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1文武"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/文治武功/",
+      "name": "文治武功",
+      "description": "每个回合行动时有60%概率对敌军随机两人造成50%兵刃和谋略伤害",
+      "tactic_type": "指挥",
+      "effect_tag": "文武",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "每个回合行动时有60%概率对敌军随机两人造成50%-100%兵刃和谋略伤害",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/wen_qia_wu_gong.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2文武"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/文韬武略/",
+      "name": "文韬武略",
+      "description": "普通攻击后，对敌军智力最低单体造成80%->88.8%谋略伤害，对敌军统率最低单体造成80%->88.8%兵刃伤害",
+      "tactic_type": "追击",
+      "effect_tag": "文武",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "32%",
+      "ranked_description": "普通攻击后，对敌军智力最低单体造成80%->160%谋略伤害，对敌军统率最低单体造成80%->160%兵刃伤害",
+      "ranked_rate_text": "50%",
+      "avatar_file": "data/figure/wen_tao_wu_lue.png",
+      "season": "s4",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2",
+        "追击",
+        "文武"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/料事如神/",
+      "name": "料事如神",
+      "description": "对敌军随机两人造成90%谋略伤害，并有50%概率施加技穷，持续1回合",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "45%",
+      "ranked_description": "对敌军随机两人造成90%-180%谋略伤害，并有50%概率施加技穷，持续1回合",
+      "ranked_rate_text": "45%",
+      "avatar_file": "data/figure/liao_shi_ru_shen.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/斩将夺旗/",
+      "name": "斩将夺旗",
+      "description": "对统率最低的敌军单体造成110%兵刃伤害，并施加断粮，持续2回合，若目标已持有断粮状态,则额外造成40%兵刃伤害",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "55%",
+      "ranked_description": "对统率最低的敌军单体造成110%-220%兵刃伤害，并施加断粮，持续2回合，若目标已持有断粮状态，则额外造成40%一80%兵刃伤害",
+      "ranked_rate_text": "55%",
+      "avatar_file": "data/figure/zhan_jiang_duo_qi.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/断戈夺锋/",
+      "name": "断戈夺锋",
+      "description": "对敌军随机两人造成110%→122.2%兵刃伤害，并有37.5%→41.6%概率施加缴械，持续1回合",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "50%",
+      "ranked_description": "对敌军随机两人造成110%→220%兵刃伤害，并有37.5%→75%概率施加缴械，持续1回合",
+      "ranked_rate_text": "50%",
+      "avatar_file": "data/figure/duan_ge_duo_feng.png",
+      "season": "s7",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/断敌粮道/",
+      "name": "断敌粮道",
+      "description": "回合开始时，对敌军单体施加断粮，持续2回合。回合结束时，对持有断粮状态的敌军造成55%谋略伤害",
+      "tactic_type": "指挥",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "回合开始时，对敌军单体施加断粮，持续2回合。回合结束时，对持有断粮状态的敌军造成55%一110%谋略伤害",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/duan_di_liang_dao.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T3谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/无难之志/",
+      "name": "无难之志",
+      "description": "提升两名队友22.5%连击率和20%倒戈，持续2回合",
+      "tactic_type": "主动",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "38.5%",
+      "ranked_description": "提升两名队友22.5%一45%连击率和20%倒戈，持续2回合",
+      "ranked_rate_text": "38.5%>> 70%",
+      "avatar_file": "data/figure/wu_nan_zhi_zhi.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/明其虚实/",
+      "name": "明其虚实",
+      "description": "夺取敌军随机两人10->11.1点智力、统率（受智力影响），持续2回合，并造成70%->77.7%谋略伤害",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "45%",
+      "ranked_description": "夺取敌军随机两人10->20点智力，统率（受智力影响），持续2回合，并造成70%->140%谋略伤害",
+      "ranked_rate_text": "45%",
+      "avatar_file": "data/figure/ming_qi_xu_shi.png",
+      "season": "s3",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "辅助",
+        "谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/智破千军/",
+      "name": "智破千军",
+      "description": "普通攻击后，对敌军随机两人造成90%->100%谋略伤害，并有17.5%->19.4%（受智力影响）令该次伤害额外提升20%，每个目标独立判定",
+      "tactic_type": "追击",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "50%",
+      "ranked_description": "普通攻击后，对敌军随机两人造成90%->180%谋略伤害，并有17.5%->35%（受智力影响）令该次伤害额外提升20%，每个目标独立判定",
+      "ranked_rate_text": "50%",
+      "avatar_file": "data/figure/zhi_po_qian_jun.png",
+      "season": "s6",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2",
+        "追击",
+        "谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/暗渡阴平/",
+      "name": "暗渡阴平",
+      "description": "奇数回合结束时，自身受到10%当前兵力的逃兵伤害并使自身和友军兵力最低单体获得自身当前兵力5%->5.56%的伏兵，持续1回合",
+      "tactic_type": "被动",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "奇数回合结束时，自身受到10%当前兵力的逃兵伤害并使自身和友军兵力最低单体获得自身当前兵力5%->10%的伏兵，持续1回合",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/an_du_yin_pin.png",
+      "season": "s16",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/未雨绸缪/",
+      "name": "未雨绸缪",
+      "description": "获得1层抵御，且奇谋几率和奇谋伤害提升4%->4.44%（受智力影响，自身每存在1种功能性增益状态，额外提升1%->1.11%，最多可提升8次），持续2回合，然后对敌军随机两人造成70%->77.78%谋略伤害",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "60%",
+      "ranked_description": "获得1层抵御，且奇谋几率和奇谋伤害提升4%一8%（受智力影响，自身每存在1种功能性增益状态，额外提升1%->2%，最多可提升8次），持续2回合，然后对敌军随机两人造成70%->140％谋略伤害",
+      "ranked_rate_text": "60%",
+      "avatar_file": "data/figure/wei_yu_chou_mou.png",
+      "season": "s13",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "谋略",
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/机变无穷/",
+      "name": "机变无穷",
+      "description": "自带战法造成伤害后,有30%→33.3%概率(受智力影响)提升5%→5.5%谋略伤害，可叠加，持续到回合结束，并对随机敌军造成30%→33.3%谋略伤害。每回合最多触发4次",
+      "tactic_type": "被动",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "自带战法造成伤害后，有30%→60%概率(受智力影响)提升5%→10%谋略伤害，可叠加，持续到回合结束，并对随机敌军造成30%→60%谋略伤害。每回合最多触发4次",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/ji_bian_wu_qiong.png",
+      "season": "s10",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/束手无策/",
+      "name": "束手无策",
+      "description": "对敌军随机单体造成100%谋略伤害，并施加技穷，持续1回合",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "45%",
+      "ranked_description": "对敌军随机单体造成100%-200%谋略伤害，并施加技穷，持续1回合",
+      "ranked_rate_text": "45%",
+      "avatar_file": "data/figure/shu_shou_wu_ce.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        ""
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/来好息师/",
+      "name": "来好息师",
+      "description": "每回合结束时，恢复我军前排全体兵力(治疗率45%，受智力影响）",
+      "tactic_type": "被动",
+      "effect_tag": "治疗",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "每回合结束时，恢复我军前排全体兵力(治疗率45%-90%，受智力影",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/lai_hao_xi_shi.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2 ",
+        "治疗"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/横征暴敛/",
+      "name": "横征暴敛",
+      "description": "战斗中，施加负面效果后恢复自身兵力(治疗率20%，受智力和统率影响），并使自身受到伤害降低5%，持续2回合，可叠加4次",
+      "tactic_type": "被动",
+      "effect_tag": "防御",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "战斗中，施加负面效果后恢复自身兵力(治疗率20%-40%，受智力和统率影响），并使自身受到伤害降低5%一10%，持续2回合，可叠加4次",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/heng_cheng_bao_lian.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0防御"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/横扫千军/",
+      "name": "横扫千军",
+      "description": "普通攻击后，对敌军全体造成60%兵刃伤害，成功释放后下一次横扫千军伤害系数提升12%，可叠加5次，持续到战斗结束",
+      "tactic_type": "追击",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "45%",
+      "ranked_description": "普通攻击后，对敌军全体造成60%-120%兵刃伤害，成功释放后下一次横扫千军伤害系数提升12%，可叠加5次，持续到战斗结束",
+      "ranked_rate_text": "45%",
+      "avatar_file": "data/figure/heng_sao_qian_jun.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2追击"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/步步为营/",
+      "name": "步步为营",
+      "description": "每回合开始时，有60%概率使自身及随机友军单体受到的伤害降低12%->13.3%（受统率影响），持续1回合，每回合触发概率提升5%->5.5%，每个武将独立判断",
+      "tactic_type": "指挥",
+      "effect_tag": "防御",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "每回合开始时，有60%概率使自身及随机友军单体受到的伤害降低12%->24%（受统率影响），持续1回合，每回合触发概率提升5%->10%，每个武将独立判断",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/bu_bu_wei_ying.png",
+      "season": "s6",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0",
+        "防御"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/水淹七军/",
+      "name": "水淹七军",
+      "description": "准备1回合，对敌军全体施加洪水，持续2回合，并造成130%兵刃伤害，并施加技穷或缴械中的一种，持续1回合",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "40%",
+      "ranked_description": "准备1回合，对敌军全体施加洪水，持续2回合，并造成130%一260%兵刃伤害，并施加技穷或缴械中的一种，持续1回合",
+      "ranked_rate_text": "40%",
+      "avatar_file": "data/figure/shui_yan_qi_jun.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/洗筋伐髓/",
+      "name": "洗筋伐髓",
+      "description": "回合开始时，使自身造成伤害提升5%->5.5%，可叠加3次，持续到战斗结束。\n回合行动时，有55%概率使自身获得以下效果：恢复自身兵力（治疗率100%一111.1%，受最高属性影响）：受到伤害降低10%一11.1%，持续1回合，每个效果独立判断",
+      "tactic_type": "被动",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "回合开始时，使自身造成伤害提升5%->10%，可叠加3次，持续到战斗结束。\n回合行动时，有55%概率使自身获得以下效果：恢复自身兵力（治疗率100%一200%，受最高属性影响）：受到伤害降低10%一20%，持续1回合，每个效果独立判断",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/xi_jin_fa_sui.png",
+      "season": "s4",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/洞若观火/",
+      "name": "洞若观火",
+      "description": "恢复我军随机单体兵力(治疗率130%，受智力影响），并使其获得清醒，持续2回合",
+      "tactic_type": "主动",
+      "effect_tag": "治疗",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "50%",
+      "ranked_description": "恢复我军随机单体兵力(治疗率130%-260%，受智力影响），并使其获得清醒，持续2回合",
+      "ranked_rate_text": "50%",
+      "avatar_file": "data/figure/dong_ruo_guan_huo.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1治疗"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/清风驱疾/",
+      "name": "清风驱疾",
+      "description": "驱散我军随机两人1种负面状态，并恢复其兵力(治疗率90%，受智力影",
+      "tactic_type": "主动",
+      "effect_tag": "治疗",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "60%",
+      "ranked_description": "驱散我军随机两人1种负面状态，并恢复其兵力(治疗率90%-180%，受智力影响）",
+      "ranked_rate_text": "60%",
+      "avatar_file": "data/figure/qing_feng_qu_ji.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1治疗"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/潜师袭远/",
+      "name": "潜师袭远",
+      "description": "我军每造成2次自带战法伤害后，自身获得1层潜袭:受到伤害降低1.5->%1.67%(受智力影响)，可叠加6层，持续到回合结束，满层时，额外使自身造成谋略伤害提升5%->5.56%(受智力影响)，持续1回合。每回合结束时，有25%->27.78%概率(每持有1层潜袭，额外提升7%)为我军兵力最低单体施加治疗(治疗率80%->88.89%，受智力影响）",
+      "tactic_type": "指挥",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "我军每造成2次自带战法伤害后，自身获得1层潜袭:受到伤害降低1.5%->3%(受智力影响)，可叠加6层，持续到回合结束，满层时，额外使自身造成谋略伤害提升5%->10%(受智力影响)，持续1回合。每回合结束时，有25%-->50%概率(每持有1层潜袭，额外提升7%)为我军兵力最低单体施加治疗(治疗率80%->160%，受智力影响)",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/qian_shi_xi_yuan.png",
+      "season": "s15",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/潜龙在渊/",
+      "name": "潜龙在渊",
+      "description": "战斗开始前3回合，自身无法进行普通攻击。第4、6、8回合结束时，分别对敌军全体造成170%->188.8%、190%->211.1%、210%->233.3%的伤害（伤害类型由武力和智力最高决定）",
+      "tactic_type": "指挥",
+      "effect_tag": "文武",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "战斗开始前3回合，自身无法进行普通攻击。第4、6、8回合结束时，分别对敌军全体造成170%->340%、190%->380%、210%->420%的伤害（伤害类型由武力和智力最高决定）",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/qian_long_zai_yuan.png",
+      "season": "s9",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0",
+        "文武"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/火羽/",
+      "name": "火羽",
+      "description": "对敌军全体造成75%兵刃伤害，并施加火攻，持续2回合",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "40%",
+      "ranked_description": "对敌军全体造成75%一150%兵刃伤害，并施加火攻，持续2回合",
+      "ranked_rate_text": "40%",
+      "avatar_file": "data/figure/huo_yu.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T3",
+        "兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/烈火张天/",
+      "name": "烈火张天",
+      "description": "对敌军全体施加火攻，持续2回合，并造成45%一50%谋略和兵刃伤害",
+      "tactic_type": "主动",
+      "effect_tag": "文武",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "50%",
+      "ranked_description": "对敌军全体施加火攻，持续2回合，并造成45%一90%谋略和兵刃伤害",
+      "ranked_rate_text": "50%",
+      "avatar_file": "data/figure/lie_huo_zhang_tian.png",
+      "season": "s3",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "文武"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/烈火焚营/",
+      "name": "烈火焚营",
+      "description": "对敌军全体造成40%谋略伤害，并施加火攻状态，持续2回合。再进行3次焚营：对敌军随机单体造成40%谋略伤害。若目标处于风暴状态,焚营的伤害值提升30%",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "45%",
+      "ranked_description": "对敌军全体造成40%一80%谋略伤害，并施加火攻状态，持续2回合。再进行3次焚营：对敌军随机单体造成40%一80％谋略伤害。若目标处于风暴状态，焚营的伤害值提升30%",
+      "ranked_rate_text": "45%",
+      "avatar_file": "data/figure/lie_huo_fen_ying.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/狂风大作/",
+      "name": "狂风大作",
+      "description": "第2和第4回合开始时，敌我全体会陷入风暴状态，持续2回合。奇数回合开始时，有60%概率对敌军全体造成50%谋略伤害。偶数回合开始时，有60%概率对敌军随机单体造成140%谋略伤害",
+      "tactic_type": "指挥",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "第2和第4回合开始时，敌我全体会陷入风暴状态，持续2回合。奇数回合开始时，有60%概率对敌军全体造成50%一100%谋略伤害偶数回合开始时，有60%概率对敌军随机单体造成140%-280%谋略伤害",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/kuang_feng_da_zuo.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/王佐之才/",
+      "name": "王佐之才",
+      "description": "自身奇谋提升10%(受智力影响)，造成谋略伤害后有50%概率提升自身5点智力，持续2回合，可叠加4次",
+      "tactic_type": "被动",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "自身奇谋提升10%一20%(受智力影响），造成谋略伤害后有50%概率提升百身5一10点智力，持续2回合，可叠加4次",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/wang_zuo_zhi_cai.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/疾行侧击/",
+      "name": "疾行侧击",
+      "description": "对敌军随机单体造成75%兵刃伤害，并施加畏惧，持续2回合，施放2次",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "60%",
+      "ranked_description": "对敌军随机单体造成75%一150%兵刃伤害，并施加畏惧，持续2回合，施放2次",
+      "ranked_rate_text": "60%",
+      "avatar_file": "data/figure/ji_xing_ce_ji.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2",
+        "兵刃",
+        "追击",
+        "增伤"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/百战不殆/",
+      "name": "百战不殆",
+      "description": "我军统率/智力/武力最高单体受到伤害时，有60%概率对应提升3.5点统率/智力/武力，可叠加8次，持续到战斗结束，可对同一目标生效",
+      "tactic_type": "指挥",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "我军统率/智力/武力最高单体受到伤害时，有60%概率对应提升3.5-7点统率/智力/武力，可叠加8次，持续到战斗结束，可对同一目标生效",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/bai_zhan_bu_dai.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/睿虑合图/",
+      "name": "睿虑合图",
+      "description": "我军前排受到伤害后，使我军随机2人奇谋提升1%->1.11%（受智力影响），可叠加15次，持续到战斗结束",
+      "tactic_type": "指挥",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "我军前排受到伤害后，使我军随机2人奇谋提升1%->2%（受智力影响），可叠加15次，持续到战斗结束",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/rui_lv_he_tu.png",
+      "season": "s12",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/瞋目横矛/",
+      "name": "瞋目横矛",
+      "description": "战斗开始时,使我军随机单体(优先前排)获得横矛:造成伤害后,有25%→27.7%概率(受横矛持有者武力影响)对目标施加畏惧(每回合每名敌军最多触发1次)持续1回合,若目标已持有畏惧,则兵刃伤害提升1%→1.1%(受横矛持有者武力影响),可叠加",
+      "tactic_type": "指挥",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "战斗开始时,使我军随机单体(优先前排)获得横矛:造成伤害后,有25%→50%概率(受横矛持有者武力影响)对目标施加畏惧(每回合每名敌军最多触发1次)持续1回合,若目标已持有畏惧,则兵刃伤害提升1%→2%(受横持有者武力影响),可叠加",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/chen_mu_heng_mao.png",
+      "season": "s12",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/知人善任/",
+      "name": "知人善任",
+      "description": "使我军智力最高单体受到伤害降低12.5%(受智力影响），持续2回合，并获得1层抵御",
+      "tactic_type": "主动",
+      "effect_tag": "防御",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "75%",
+      "ranked_description": "使我军智力最高单体受到伤害降低12.5%一25%（受智力影响），持续2回合，并获得1层抵御",
+      "ranked_rate_text": "75%",
+      "avatar_file": "data/figure/zhi_ren_shan_ren.png",
+      "season": "s2",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "防御"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/破军袭敌/",
+      "name": "破军袭敌",
+      "description": "准备1回合，对敌军全体造成150%兵刃伤害",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "50%",
+      "ranked_description": "准备1回合，对敌军全体造成150%-300%兵刃伤害",
+      "ranked_rate_text": "50%",
+      "avatar_file": "data/figure/po_jun_xi_di.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T3",
+        "兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/破阵驰围/",
+      "name": "破阵驰围",
+      "description": "准备1回合，使敌军随机单体受到伤害提升15%，持续2回合。然后对其造成220%兵刃伤害",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "60%",
+      "ranked_description": "准备1回合，使敌军随机单体受到伤害提升15%一30%，持续2回合。然后对其造成220%一440%兵刃伤害",
+      "ranked_rate_text": "60%",
+      "avatar_file": "data/figure/po_zhen_chi_wei.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/神略制变/",
+      "name": "神略制变",
+      "description": "前4回合发动时，恢复我军随机两人兵力(治疗率55%→61.1%，受智力影响)后4回合发动时，对敌军随机两人造成80%→88.8%谋略伤害",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "前4回合发动时，恢复我军随机两人兵力(治疗率55%→110%，受智力影响)后4回合发动时，对敌军随机两人造成80%→160%谋略伤害",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/mou_lue_zhi_bian.png",
+      "season": "s8",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "谋略",
+        "治疗"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/穷追不舍/",
+      "name": "穷追不舍",
+      "description": "每个回合行动时有60%概率对持有异常状态的敌军造成60%兵刃伤害，每个目标独立判定",
+      "tactic_type": "被动",
+      "effect_tag": "兵刃",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "每个回合行动时有60%概率对持有异常状态的敌军造成60%一120%兵刃伤害，每个目标独立判定",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/qiong_zhui_bu_she.png",
+      "season": "s2",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/空城计/",
+      "name": "空城计",
+      "description": "战斗开始前3回合，敌我全体主动战法发动率降低7%->7.7%（受智力影响）第4回合开始时，我军智力最高单体造成谋略伤害提升8%->8.8%（受智力影响），我军智力最低单体受到谋略伤害降低8%->8.8％（受智力影响）",
+      "tactic_type": "指挥",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "战斗开始前3回合，敌我全体主动战法发动率降低7%->14%（受智力影响）第4回合开始时，我军智力最高单体造成谋略伤害提升8%->16%（受智力影响），我军智力最低单体受到谋略伤害降低8%->16％（受智力影响）",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/kong_cheng_ji.png",
+      "season": "s6",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/筹划良策/",
+      "name": "筹划良策",
+      "description": "提升自身10点智力，持续2回合，对敌军随机两人造成80%谋略伤害",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "50%",
+      "ranked_description": "提升自身10一20点智力，持续2回合，对敌军随机两人造成80%-160％谋略伤害",
+      "ranked_rate_text": "50%",
+      "avatar_file": "data/figure/deng_hua_liang_ce.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        ""
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/筹策夺锋/",
+      "name": "筹策夺锋",
+      "description": "准备1回合，提升自身4%->4.44%智力，可叠加，持续2回合；并夺取敌军随机两人3%->3.33%造成伤害提升效果（受智力影响），可叠加2次，持续2回合，随后对其造成150%->166.67%谋略伤害",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "60%",
+      "ranked_description": "准备1回合，提升自身4%->8%智力，可叠加，持续2回合；并夺取敌军随机两人3%->6%造成伤害提升效果（受智力影响），可叠加2次，持续2回合，随后对其造成150%->300%谋略伤害",
+      "ranked_rate_text": "60%",
+      "avatar_file": "data/figure/chou_ce_duo_feng.png",
+      "season": "s18",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/经天纬地/",
+      "name": "经天纬地",
+      "description": "准备1回合，对敌军全体造成130%->144.4%谋略伤害，并有40%->44.4%概率使目标随机获得1种控制状态，持续2回合",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "45%",
+      "ranked_description": "准备1回合，对敌军全体造成130%->260%谋略伤害，并有40%->80%概率使目标随机获得1种控制状态，持续2回合",
+      "ranked_rate_text": "45%",
+      "avatar_file": "data/figure/jing_tian_wei_di.png",
+      "season": "s4",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/缮甲厉兵/",
+      "name": "缮甲厉兵",
+      "description": "自身反击率提升25%一27.7%，成功普通攻击后，使自身受到兵刃伤害降低2.5%-2.7%，持续2回合，可叠加4次",
+      "tactic_type": "被动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "自身反击率提升25%一50%%，成功普通攻击后，使自身受到兵刃伤害降低2.5%-5%，持续2回合，可叠加4次",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/shan_jia_li_bing.png",
+      "season": "s3",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/胜敌益强/",
+      "name": "胜敌益强",
+      "description": "造成兵刃伤害后提升自身8点武力，可叠加8次，造成谋略伤害后提升自身8点智力，可叠加8次",
+      "tactic_type": "被动",
+      "effect_tag": "文武",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "造成兵刃伤害后提升自身8一16点武力，可叠加8次，造成谋略伤害后提升自身8一16点智力，可叠加8次",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/sheng_di_yi_sao.png",
+      "season": "s2",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0",
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/舍生取义/",
+      "name": "舍生取义",
+      "description": "战斗开始前2回合，我军全体连击率提升15%，我军武力最高单体获得清醒，自身获得震慑，持续2回合",
+      "tactic_type": "指挥",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "战斗开始前2回合 ，我军全体连击率提升15%一30%，我军武力最高单体获得清醒，自身获得震慑，持续2回合",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/she_sheng_qu_yi.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/蓄势待发/",
+      "name": "蓄势待发",
+      "description": "每回合开始时提升两名队友3.5%造成伤害，可叠加，持续到战斗结束",
+      "tactic_type": "指挥",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "每回合开始时提升两名队友3.5%一7%造成伤害，可叠加，持续到战斗结束",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/xu_shi_dai_fa.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/虎步连环/",
+      "name": "虎步连环",
+      "description": "普通攻击后，对敌军随机两人造成55%→61.1%兵刃伤害并有30%→33.3%概率使目标随机获得1种控制状态，持续1回合，每个目标独立判定",
+      "tactic_type": "追击",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "50%",
+      "ranked_description": "普通攻击后，对敌军随机两人造成55%→110%兵刃伤害并有30%→60%概率使目标随机获得1种控制状态，持续1回合，每个目标独立判定",
+      "ranked_rate_text": "50%",
+      "avatar_file": "data/figure/hu_bu_lian_huan.png",
+      "season": "s9",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "追击"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/计袭粮仓/",
+      "name": "计袭粮仓",
+      "description": "普通攻击后，对攻击目标造成150%谋略伤害，并施加断粮，持续2回合，若目标已持有断粮状态则额外对其造成50%谋略伤害",
+      "tactic_type": "追击",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "45%",
+      "ranked_description": "普通攻击后，对攻击目标造成150%-300%谋略伤害，并施加断粮，持续2回合，若目标已持有断粮状态则额外对其造成50%一100%谋略伤害",
+      "ranked_rate_text": "45%",
+      "avatar_file": "data/figure/ji_xi_liang_cang.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T3",
+        "追击",
+        "谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/计逐穷寇/",
+      "name": "计逐穷寇",
+      "description": "造成谋略伤害后，有30%概率对敌军随机单体造成1次普通攻击，每回合最多触发1次",
+      "tactic_type": "被动",
+      "effect_tag": "谋略",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "造成谋略伤害后，有30%一60%概率对敌军随机单体造成1次普通攻击，每回合最多触发1次",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/ji_zhu_qiong_kou.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        ""
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/诱敌深入/",
+      "name": "诱敌深入",
+      "description": "嘲讽全体敌军,持续1回合,并获得2.5%→2.7%(受先攻影响)当前兵力的伏兵。伏兵:功能性增益状态，数量上限1500,回合结束时消失,受到伤害时，消耗伏兵抵挡其中50%的伤害,并使伤害来源产生等额逃兵",
+      "tactic_type": "主动",
+      "effect_tag": "防御",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "70%",
+      "ranked_description": "嘲讽全体敌军,持续1回合,并获得2.5%→5%(受先攻影响)当前兵力的伏兵。伏兵:功能性增益状态,数量上限1500,回合结束时消失，受到伤害时，消耗伏兵抵挡其中50%的伤害,并使伤害来源产生等额逃兵",
+      "ranked_rate_text": "70%",
+      "avatar_file": "data/figure/you_di_shen_ru.png",
+      "season": "s12",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0防御"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/调和阴阳/",
+      "name": "调和阴阳",
+      "description": "自身与随机友方单体受到兵刃或谋略伤害前，有35%概率令得目标造成的该类伤害降低1.5%→1.6%，持续2回合可叠加10次，同时恢复其兵力(治疗率12.5%→13.8%，受智力影响)，每回合最多触发3次。我军每存在一名女性武将，该次治疗率额外提升10%",
+      "tactic_type": "指挥",
+      "effect_tag": "防御",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "自身与随机友方单体受到兵刃或谋略伤害前，有35%概率令得目标造成的该类伤害降低1.5%→3%,持续2回合，可叠加10次，同时恢复其兵力(治疗率12.5%→25%，受智力影响)，每回合最多触发3次。我军每存在一名女性武将该次治疗率额外提升10%",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/tiao_he_yin_yang.png",
+      "season": "s11",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "防御",
+        "治疗"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/谈笑诛心/",
+      "name": "谈笑诛心",
+      "description": "敌军被施加负面状态时，有60%概率对敌军随机单体造成55%谋略伤害，每回合最多触发2次",
+      "tactic_type": "被动",
+      "effect_tag": "谋略",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "敌军被施加负面状态时，有60%概率对敌军随机单体造成55%-110%谋略伤害，每回合最多触发2次",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/tan_xiao_zhu_xin.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        ""
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/谋而后动/",
+      "name": "谋而后动",
+      "description": "普通攻击后,对敌军全体造成20%→22.2%谋略伤害，有50%概率(受智力影响)额外再发动一次谋而后动(无法再次发动)，谋而后动的伤害系数每回合提升6%→6.6%",
+      "tactic_type": "追击",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "75%",
+      "ranked_description": "普通攻击后，对敌军全体造成20%→40%谋略伤害，有50%概率(受智力影响)额外再发动一次谋而后动(无法再次发动)，谋而后动的伤害系数每回合提升6%→12%",
+      "ranked_rate_text": "75%",
+      "avatar_file": "data/figure/mou_er_hou_dong.png",
+      "season": "s7",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0",
+        "追击",
+        "谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/趁火打劫/",
+      "name": "趁火打劫",
+      "description": "准备1回合，对敌军随机两人造成110%谋略和兵刃伤害，若目标处于火攻状态，则额外施加混乱状态，持续2回合",
+      "tactic_type": "主动",
+      "effect_tag": "文武",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "50%",
+      "ranked_description": "准备1回合 ，对敌军随机两人造成110%-220%谋略和兵刃伤害,若目标处于火攻状态，则额外施加混乱状态，持续2回合",
+      "ranked_rate_text": "50%",
+      "avatar_file": "data/figure/chen_huo_da_jie.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T3文武"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/践墨随敌/",
+      "name": "践墨随敌",
+      "description": "战斗前3回合，自身受到伤害后，30%→33.3%概率降低伤害来源25→27.7点武力(受智力影响)，25→27.7点智力(受统率影响)，可叠加3次，持续到回合结束",
+      "tactic_type": "被动",
+      "effect_tag": "防御",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "战斗前3回合，自身受到伤害后，30%→60%概率降低伤害来源25→50点武力(受智力影响),25→50点智力(受统率影响),可叠加3次，持续到回合结束",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/jian_mo_sui_di.png",
+      "season": "s10",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0",
+        "防御"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/蹈锋饮血/",
+      "name": "蹈锋饮血",
+      "description": "受到伤害后，有27.5%→30.5%概率提升自身2.5→2.7点武力(受武力影响),可叠加15次，持续到战斗结束，并对伤害来源施加畏惧，持续2回合，若目标已持有畏惧效果则额外使其受到伤害提升4%4.4%，可加2次，持续2回合。每回合最多触发4次",
+      "tactic_type": "被动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "受到伤害后,有27.5%→55%概率提升自身2.5→5点武力(受武力影响)，可叠加15次，持续到战斗结束，并对伤害来源施加畏惧，持续2回合，若目标已持有畏惧效果，则额外使其受到伤害提升4%→8%，可加2次，持续2回合。每回合最多触发4次",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/dao_feng_yin_xue.png",
+      "season": "s10",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/轻装驰援/",
+      "name": "轻装驰援",
+      "description": "普通攻击后，对我军随机两人施加1层抵御，并使其受到伤害降低10%，持续2回合",
+      "tactic_type": "追击",
+      "effect_tag": "防御",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "27.5%",
+      "ranked_description": "普通攻击后，对我军随机两人施加1层抵御，并使其受到伤害降低10%-20%，持续2回合",
+      "ranked_rate_text": "27.5%>> 50%",
+      "avatar_file": "data/figure/qing_zhuang_chi_yuan.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2",
+        "追击",
+        "防御"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/辕门射戟/",
+      "name": "辕门射戟",
+      "description": "普通攻击后，对敌军随机单体造成100%兵刃伤害。若自身为后排，则有75%概率提升自身5%主动战法发动率，持续2回合，可叠加3次",
+      "tactic_type": "追击",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "70%",
+      "ranked_description": "普通攻击后，对敌军随机单体造成100%-200%兵刃伤害。若自身为后排，则有75%概率提升自身5%一10%主动战法发动率，持续2回合，可叠加3次",
+      "ranked_rate_text": "70%",
+      "avatar_file": "data/figure/yuan_men_she_ji.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2",
+        "兵刃",
+        "追击"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/迎敌/",
+      "name": "迎敌",
+      "description": "准备1回合，提升自身10%破甲，持续2回合，然后对敌军单体造成220％兵刃伤害，优先选择前排目标",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "50%",
+      "ranked_description": "准备1回合，提升自身10%-20%破甲，持续2回合，然后对敌军单体造成220%一440%兵刃伤害，优先选择前排目标",
+      "ranked_rate_text": "50%",
+      "avatar_file": "data/figure/ying_di.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T3",
+        "兵刃",
+        "增伤"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/运智铺谋/",
+      "name": "运智铺谋",
+      "description": "普通攻击后，谋略伤害提升3.5%->3.8%，可叠加5次。造成谋略伤害后，有25%->27.7%概率对敌军随机单体造成1次普通攻击，每个回合最多触发1次",
+      "tactic_type": "被动",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "普通攻击后，谋略伤害提升3.5%->7%，可叠加5次。造成谋略伤害后，有25%->50%概率对敌军随机单体造成1次普通攻击，每个回合最多触发1次",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/yun_zhi_fu_mou.png",
+      "season": "s5",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "追击",
+        "谋略"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/运筹帷幄/",
+      "name": "运筹帷幄",
+      "description": "降低敌军随机两人15武力，智力，统率，先攻(受智力影响），持续2回合",
+      "tactic_type": "主动",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "45%",
+      "ranked_description": "降低敌军随机两人15-30武力，智力，统率，先攻(受智力影响），持续2回合",
+      "ranked_rate_text": "45%",
+      "avatar_file": "data/figure/yun_chou_wei_wo.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/避其锐气/",
+      "name": "避其锐气",
+      "description": "战斗开始前4回合，自身及随机友军单体受到伤害减少13%",
+      "tactic_type": "指挥",
+      "effect_tag": "防御",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "战斗开始前4回合，自身及随机友军单体受到伤書减少13%-26%",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/bi_qi_rui_qi.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0防御"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/金城汤池/",
+      "name": "金城汤池",
+      "description": "回合开始时我军全体有40%-44.4%概率获得1层抵御，每个回合概率降低12％",
+      "tactic_type": "指挥",
+      "effect_tag": "防御",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "回合开始时我军全体有40%一80%概率获得1层抵御，个回合概率降低12％",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/jin_cheng_tang_chi.png",
+      "season": "s3",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0防御"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/铁骑横冲/",
+      "name": "铁骑横冲",
+      "description": "普通攻击后，提升自身10%会心几率，持续2回合，然后对当前目标造成200%兵刃伤害。无论是否发动，该伤害系数每回合降低25%",
+      "tactic_type": "追击",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "40%",
+      "ranked_description": "普通攻击后，提升自身10%一20%会心几率，持续2回合，然后对当前目标造成200%一400%兵刃伤害。无论是否发动，该伤害系数每回合降低25%",
+      "ranked_rate_text": "40%",
+      "avatar_file": "data/figure/tie_qi_heng_chong.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1追击"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/铸甲销戈/",
+      "name": "铸甲销戈",
+      "description": "战斗开始前3回合，我军全体在回合开始时有32.5%概率获得1层抵御",
+      "tactic_type": "指挥",
+      "effect_tag": "防御",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "战斗开始前3回合，我军全体在回合开始时有32.5%-65%概率获得1层抵御",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/zhu_jia_xiao_ge.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0防御"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/锐不可当/",
+      "name": "锐不可当",
+      "description": "提升自身8%破甲和17.5%造成伤害",
+      "tactic_type": "被动",
+      "effect_tag": "辅助",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "提升自身8%一16%破甲和17.5%-35%造成伤害",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/rui_bu_ke_dang.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T0辅助",
+        "增伤"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/随机应变/",
+      "name": "随机应变",
+      "description": "第2回合起，每回合开始时有20%->22.22%概率对敌军武力、智力最高单体施加应变:最高属性降低10->11.11点(受自身武力和智力影响)，造成伤害降低5%->5.56%(受统率影响)，持续到回合结束，每回合应变效果提升8%，每个武将独立判断",
+      "tactic_type": "指挥",
+      "effect_tag": "防御",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "第2回合起，每回合开始时有20%->40%概率对敌军武力、智力最高单体施加应变:最高属性降低10->20点(受自身武力和智力影响)，造成伤害降低5%->5.56%(受统率影响)，持续到回合结束，每回合应变效果提升8%，每个武将独立判断",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/sui_ji_ying_bian.png",
+      "season": "s17",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/青囊急救/",
+      "name": "青囊急救",
+      "description": "驱散我军兵力最低单体3种负面状态，并恢复其兵力(治疗率130%，受智力影响）",
+      "tactic_type": "主动",
+      "effect_tag": "治疗",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "55%",
+      "ranked_description": "驱散我军兵力最低单体3种负面状态，并恢复其兵力(治疗率130%一260%，受智力影响）",
+      "ranked_rate_text": "55%",
+      "avatar_file": "data/figure/qing_nang_ji_jiu.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1治疗"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/韬光养晦/",
+      "name": "韬光养晦",
+      "description": "自带主动战法发动率提升3%(受智力影响），每个回合开始时使自身造成谋略伤害提升4%，可叠加，持续到战斗结束",
+      "tactic_type": "被动",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "自带主动战法发动率提升3%一6%（受智力影响），每个回合开始时使自身造成谋略伤害提升4%一8%，可叠加，持续到战斗结束",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/tao_guang_yang_hui.png",
+      "season": "s2",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T1",
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/风助火势/",
+      "name": "风助火势",
+      "description": "对敌军全体施加风暴和火攻，持续1回合,若目标已持有风暴状态,则额外使其武力降低10→11.1点(受武力影响)持续1回合;若目标已持有火攻状态，则额外使其智力降低10→11.1点(受智力影响),持续1回合",
+      "tactic_type": "主动",
+      "effect_tag": "文武",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "70%",
+      "ranked_description": "对敌军全体施加风暴和火攻,持续1回合,若目标已持有风暴状态,则额外使其武力降低10→20点(受武力影响),持续1回合;若目标已持有火攻状态,则额外使其智力降低10→20点(受智力影响),持续1回合",
+      "ranked_rate_text": "70%",
+      "avatar_file": "data/figure/feng_zhu_huo_shi.png",
+      "season": "s12",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2",
+        "文武",
+        "辅助"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/风卷残云/",
+      "name": "风卷残云",
+      "description": "对敌军随机两人造成90%兵刃伤害，若目标处于风暴状态，则该次伤害提升25%。若自身处于风暴状态，则自身规避率提升5%，持续2回合",
+      "tactic_type": "主动",
+      "effect_tag": "兵刃",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "60%",
+      "ranked_description": "对敌军随机两人造成90%-180%兵刃伤害，若目标处于风暴状态，则该次伤害提升25%。若自身处于风暴状态，则自身规避率提升5%-10%，持续2回合",
+      "ranked_rate_text": "60%",
+      "avatar_file": "data/figure/feng_juan_can_yun.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2兵刃"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/骁勇之姿/",
+      "name": "骁勇之姿",
+      "description": "自身连击率提升30%，造成伤害提升5%",
+      "tactic_type": "被动",
+      "effect_tag": "辅助",
+      "rarity_color": "purple",
+      "rate_or_scaling_text": "100%",
+      "ranked_description": "自身连击率提升30%一60%，造成伤害提升5%-10%",
+      "ranked_rate_text": "100%",
+      "avatar_file": "data/figure/xiao_yong_zhi_zi.png",
+      "season": "s1",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2追击"
+      ],
+      "obtain": []
+    },
+    {
+      "source_url": "https://www.sgmdtx.com/zf/黄天惑心/",
+      "name": "黄天惑心",
+      "description": "对敌方全体造成70%→77.7%的谋略伤害，并施加妖术持续2回合，若目标已持有妖术状态则额外使其造成伤害降低8%→8.8%，持续1回合",
+      "tactic_type": "主动",
+      "effect_tag": "谋略",
+      "rarity_color": "orange",
+      "rate_or_scaling_text": "55%",
+      "ranked_description": "对敌方全体造成70%→140%的谋略伤害，并施加妖术，持续2回合，若目标已持有妖术状态则额外使其造成伤害降低8%→16%，持续1回合",
+      "ranked_rate_text": "55%",
+      "avatar_file": "data/figure/huang_tian_huo_xin.png",
+      "season": "s7",
+      "troop_eligibility": [
+        "🛡️",
+        "🏹️",
+        "↖️",
+        "🐎"
+      ],
+      "tags": [
+        "T2",
+        "谋略"
+      ],
+      "obtain": []
+    }
+  ],
+  "errors": []
+}

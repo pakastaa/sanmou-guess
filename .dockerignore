@@ -1,0 +1,5 @@
+.git
+data/runtime
+data/_catalog_out.json
+**/__pycache__
+*.tmp
